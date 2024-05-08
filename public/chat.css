@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 5px 5px 5px white;
+}
+
+.container{
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 740px;
+    padding: 10px;
+    position: relative;
+    overflow: auto;
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    left: 300px;
+}
+
+.result{
+    background-color: crimson;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    width: 500px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.conversations{
+    background-color: rgb(167, 147, 147);
+    padding: 5px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.conversations p {
+    margin-left: 50px;
+}
+
+#inputs{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 100px;
+    padding: 5px;
+    justify-content: space-evenly;
+    border: 10px double white;
+    border-radius: 20px;
+}
+
+#inputs > div{
+    margin-left: 30px;
+}
+
+#btn{
+   margin-left: 30px;
+   width: 300px;
+   margin-bottom: 20px;
+}
+
+#select{
+    width: 300px;
+}
+
+#message{
+    width: 90%;
+}
+
+#user{
+    font-size: 25px;
+    font-weight: bold;
+}
